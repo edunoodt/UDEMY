@@ -11,3 +11,7 @@ numero = input('Numero: ')
 ciudad = input ('Ciudad: ')
 
 print (f'Señor {apellido}, usted vive en {calle} nro {numero}, ciudad de {ciudad}')
+
+# Otra manera de darle forma al string:
+
+print ('Señor {}, usted vive en {} nro {}, ciudad de {}'.format(apellido, calle, numero, ciudad))
