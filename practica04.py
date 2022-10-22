@@ -8,6 +8,14 @@ temp = [item/10 for item in temp_raw if item > -1000]
 
 print (temp)
 
+# Para reemplazar el numero negativo por otro (por ejemplo 0), hacemos así:
+
+temp_raw = [227, -1199, 238, 257, 218, -1199, 119]
+
+temp = [item/10 if item > -1000 else 0 for item in temp_raw ]
+
+print (temp)
+
 # Dada una lista con enteros y strings, definir una funcion que devuelva
 #  una lista que contenga solo enteros
 
