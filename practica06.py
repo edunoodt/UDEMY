@@ -18,3 +18,5 @@ while entrada != 'xxx':
 with open('textos/vegetales.txt',"w") as mi_arch:
     mi_arch.write(cadena)
 
+    mi_arch.write('manzana')
+
